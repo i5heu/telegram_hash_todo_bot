@@ -1,0 +1,14 @@
+[package]
+name = "telegram_hash_todo_bot"
+version = "0.1.0"
+authors = ["root <i5heu@i5h.eu>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+tbot = "0.6.5"
+tokio = { version = "0.2.20", features = ["full"] }
+rusqlite = "0.23.1"
+fancy-regex = "0.3.5"
